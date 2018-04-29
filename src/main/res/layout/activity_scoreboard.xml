@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hmm.scoreboardapps.scoreboard"
+    android:orientation="vertical"
+    android:background="#022d41">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="#fe424d"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tim1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="Tim Pertama"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/score1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:text="0"
+                android:textSize="100sp"/>
+
+            <Button
+                android:id="@+id/btn_2pt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Point" />
+
+            <Button
+                android:id="@+id/btn_3pt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Point" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="#1aa6b7"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tim2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="20sp"
+                android:text="Tim Kedua"
+                android:textColor="@android:color/white"/>
+
+            <TextView
+                android:id="@+id/score2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:text="0"
+                android:textSize="100sp"/>
+
+            <Button
+                android:id="@+id/btn_2pt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 Point" />
+
+            <Button
+                android:id="@+id/btn_3pt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Point" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
